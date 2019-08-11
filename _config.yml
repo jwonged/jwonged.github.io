@@ -66,7 +66,6 @@ plugins:
 - jekyll-include-cache
 - jemoji
 - jekyll-remote-theme
-- jekyll-include-cache
 
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
@@ -100,7 +99,7 @@ collections:
     description: "My thoughts and ideas" # The post list page content
     feature_text: |
       Welcome to the blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+    feature_image: "/assets/penguin.png"
 
 # 6. Jekyll collections settings
 defaults:
@@ -108,7 +107,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: "/assets/default-social-image.png" # Default image for sharing
+      image: "/assets/penguin.png" # Default image for sharing
 
 
 # 7. Site settings
@@ -116,7 +115,7 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Joshua Wong" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/penguin.png" # Site logo, also used in jekyll-seo-tag
-description: "A website with more description to come..." # Site description and default description, also used in jekyll-seo-tag
+description: "" # Site description and default description, also used in jekyll-seo-tag
 url: "" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/"
