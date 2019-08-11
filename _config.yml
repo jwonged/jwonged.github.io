@@ -94,9 +94,9 @@ timezone: Europe/London # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Posts # Needed for Siteleaf
+    title: A look into the world. # Needed for Siteleaf
     output: true
-    description: "My thoughts and ideas" # The post list page content
+    description:  # The post list page content
     feature_text: |
       Welcome to the blog
     feature_image: "/assets/penguin.png"
