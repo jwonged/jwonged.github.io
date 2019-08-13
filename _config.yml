@@ -142,14 +142,16 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
+- title: About
+  url: /about/
 - title: Projects
-  url: /projects
+  url: /projects/
 - title: Blog
-  url: /blog
+  url: /blog/
 
 navigation_footer:
 - title: +
-  url: https://google.com
+  url: "/why-would-you-click-the-plus"
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/

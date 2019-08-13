@@ -462,6 +462,18 @@ pre code {
 }
 
 
+// link overrides
+
+A.class1 {color: $hoverHeaderLinkColour;}
+A.class1:link  {text-decoration: none; color: $headerLinkColour;}
+A.class1:visited {text-decoration: none; color: $headerLinkColour;}
+A.class1:hover {text-decoration: underline; color: $headerLinkColour;}
+A.class1:active {text-decoration: none; color: $hoverHeaderLinkColour;}
+
+A.class2 {color: $hoverHeaderLinkColour;}
+A.class2:hover {text-decoration: underline; color: $hoverHeaderLinkColour;}
+
+
 // social media icons
 
 .fa {

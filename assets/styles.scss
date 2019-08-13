@@ -13,8 +13,8 @@ $accentColour: #05bf85 !default;
 // Text colours
 $headingColour: #242e2b !default;
 $bodyColour: #384743 !default;
-$linkColour: #f5f0f0 !default;
-$hoverColour: #8a8283 !default;
+$linkColour: #2a7ae2 !default;
+$hoverColour: #6495ED !default;
 $focusColour: #fa407a !default;
 $captionColour: #a8adac !default;
 $white: #ffffff !default;
@@ -22,6 +22,8 @@ $white: #ffffff !default;
 // Custom header
 $headerBackground: #333333 !default;
 $footerBackground: #F5F5F5 !default;
+$headerLinkColour: #f5f0f0 !default;
+$hoverHeaderLinkColour: #8a8283 !default;
 
 @import "alembic";
 
